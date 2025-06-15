@@ -1,0 +1,1 @@
+# DFSCoerce - Authentication coercion using MS-DFSNM

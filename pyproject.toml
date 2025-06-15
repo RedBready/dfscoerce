@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dfscoerce"
+version = "1.0.0"
+dependencies = [
+	"impacket"
+]
+requires-python = ">=3.8"
+description = "Coerces a Windows computer account via DFS to an arbitrary target"
+readme = "README.md"
+
+[project.scripts]
+dfscoerce = "dfscoerce.cli:main"
